@@ -1,0 +1,5 @@
+Changes made:
+    Added comments explaining the purpose of functions and major code blocks.
+    Adjusted indentation according to the Linux kernel coding style.
+    Removed unnecessary return 1; statement after return z; in the do_work function.
+    Added module information (license, author, description, version) at the end of the file, following kernel module conventions.
