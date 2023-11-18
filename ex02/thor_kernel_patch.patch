@@ -8,15 +8,16 @@ Subject:        [PATCH] changed name in Makefile
 Signed-off-by: osgens <osgens@student.42.fr>
 
  ---
-Makefile | 2 +-
-1 file changed, 1 insertions(+), 1 deletions(-)
---- config-6.4.12	2023-11-18 16:29:20.000000000 +0100
-+++ config-6.4.12-thor_kernel	2023-11-18 16:14:41.000000000 +0100
-@@ -1,6 +1,6 @@
- #
- # Automatically generated file; DO NOT EDIT.
--# Linux/x86 6.4.12ogenser Kernel Configuration
-+# Linux/x86 6.4.12ogenser-thor_kernel Kernel Configuration
- #
- CONFIG_CC_VERSION_TEXT="gcc (GCC) 13.2.0"
- CONFIG_CC_IS_GCC=y
+diff --git a/Makefile b/Makefile
+index 7150ec9..0b5e2c8 100644
+--- a/Makefile
++++ b/Makefile
+@@ -2,7 +2,7 @@
+ VERSION = 6
+ PATCHLEVEL = 4
+ SUBLEVEL = 12
+-EXTRAVERSION = ogenser
++EXTRAVERSION = ogenser-thor_kernel
+ NAME = ogenser - Hurr durr I'ma ninja sloth
+
+ # *DOCUMENTATION*
