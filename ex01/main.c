@@ -4,7 +4,7 @@
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Ogenser");
-MODULE_DESCRIPTION("Ex 01 from 42 little=penguin project");
+MODULE_DESCRIPTION("Ex 01 from 42 little_penguin project");
 MODULE_VERSION("0.1");
 
 // Initialization function called when the module is loaded
