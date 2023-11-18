@@ -135,3 +135,24 @@ Nov 18 09:22:13 +00:00 ogenser  Adding default gateway 10.0.2.2 to the enp0s3 in
 Nov 18 09:22:13 +00:00 ogenser  Bringing up the eth0 interface...Nov 18 09:22:13 +00:00 ogenser  Interface eth0 doesn't exist. FAIL
 Nov 18 09:22:13 +00:00 ogenser  Starting SSH Server... OK
 --------
+Nov 18 15:03:51 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Nov 18 15:03:51 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Nov 18 15:03:51 +00:00 (none)  Bringing up the loopback interface... OK
+Nov 18 15:03:51 +00:00 (none)  Setting hostname to ogenser... OK
+Nov 18 15:03:51 +00:00 ogenser  Populating /dev with device nodes...  OK
+Nov 18 15:03:43 +00:00 ogenser  Activating all swap files/partitions... OK
+Nov 18 15:03:43 +00:00 ogenser  Mounting root file system in read-only mode...  OK
+Nov 18 15:03:43 +00:00 ogenser  Checking file systems... OK
+Nov 18 15:03:43 +00:00 ogenser  Remounting root file system in read-write mode... OK
+Nov 18 15:03:43 +00:00 ogenser  Mounting remaining file systems... OK
+Nov 18 15:03:43 +00:00 ogenser  Cleaning file systems: /tmp OK
+Nov 18 15:03:43 +00:00 ogenser  Retrying failed uevents, if any... OK
+Nov 18 15:03:44 +00:00 ogenser  Setting up Linux console... OK
+Nov 18 15:03:44 +00:00 ogenser  Starting system log daemon... OK
+Nov 18 15:03:44 +00:00 ogenser  Starting kernel log daemon... OK
+Nov 18 15:03:44 +00:00 ogenser  Bringing up the enp0s3 interface... OK
+Nov 18 15:03:44 +00:00 ogenser  Adding IPv4 address 10.0.2.15 to the enp0s3 interface... OK
+Nov 18 15:03:44 +00:00 ogenser  Adding default gateway 10.0.2.2 to the enp0s3 interface... OK
+Nov 18 15:03:44 +00:00 ogenser  Bringing up the eth0 interface...Nov 18 15:03:44 +00:00 ogenser  Interface eth0 doesn't exist. FAIL
+Nov 18 15:03:44 +00:00 ogenser  Starting SSH Server... OK
+--------
