@@ -1,0 +1,22 @@
+From            commit 0f26918f3e3d683e56050cf4d4c9483960bfa5b1 Sat Nov 18 15:42:57 2023
+From Author:    osgens <osgens@student.42.fr>
+Date:           Sat Nov 18 15:42:57 2023 +0000
+Subject:        [PATCH] changed name in Makefile
+
+"changed version name in Makefile"
+
+Signed-off-by: osgens <osgens@student.42.fr>
+
+ ---
+Makefile | 2 +-
+1 file changed, 1 insertions(+), 1 deletions(-)
+--- config-6.4.12	2023-11-18 16:29:20.000000000 +0100
++++ config-6.4.12-thor_kernel	2023-11-18 16:14:41.000000000 +0100
+@@ -1,6 +1,6 @@
+ #
+ # Automatically generated file; DO NOT EDIT.
+-# Linux/x86 6.4.12ogenser Kernel Configuration
++# Linux/x86 6.4.12ogenser-thor_kernel Kernel Configuration
+ #
+ CONFIG_CC_VERSION_TEXT="gcc (GCC) 13.2.0"
+ CONFIG_CC_IS_GCC=y
