@@ -1,605 +1,116 @@
-/dev/mapper/debian10--vg-root: clean, 132825/1525920 files, 1006445/6103040 blocks
-[[0;32m  OK  [0m] Started [0;1;39mTell Plymouth To Write Out Runtime Data[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSet console font and keymap[0m.
-[[0;32m  OK  [0m] Started [0;1;39mCreate Volatile Files and Directories[0m.
-         Starting [0;1;39mUpdate UTMP about System Boot/Shutdown[0m...
-         Starting [0;1;39mNetwork Time Synchronization[0m...
-[[0;32m  OK  [0m] Started [0;1;39mUpdate UTMP about System Boot/Shutdown[0m.
-[[0;32m  OK  [0m] Started [0;1;39mNetwork Time Synchronization[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mSystem Time Synchronized[0m.
-[[0;32m  OK  [0m] Started [0;1;39mLoad AppArmor profiles[0m.
-         Starting [0;1;39mRaise network interfaces[0m...
-[[0;32m  OK  [0m] Reached target [0;1;39mSystem Initialization[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily Cleanup of Temporary Directories[0m.
-[[0;32m  OK  [0m] Listening on [0;1;39mAvahi mDNS/DNS-SD Stack Activation Socket[0m.
-[[0;32m  OK  [0m] Started [0;1;39mTrigger anacron every hour[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily man-db regeneration[0m.
-[[0;32m  OK  [0m] Listening on [0;1;39mD-Bus System Message Bus Socket[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mSockets[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mBasic System[0m.
-[[0;32m  OK  [0m] Started [0;1;39mD-Bus System Message Bus[0m.
-         Starting [0;1;39mWPA supplicant[0m...
-         Starting [0;1;39mNetwork Manager[0m...
-         Starting [0;1;39mAccounts Service[0m...
-[[0;32m  OK  [0m] Started [0;1;39mManage Sound Card State (restore and store)[0m.
-         Starting [0;1;39mSave/Restore Sound Card State[0m...
-[[0;32m  OK  [0m] Reached target [0;1;39mLogin Prompts[0m.
-         Starting [0;1;39mLogin Service[0m...
-         Starting [0;1;39mAvahi mDNS/DNS-SD Stack[0m...
-         Starting [0;1;39mSystem Logging Service[0m...
-         Starting [0;1;39mSwitcheroo Control Proxy service[0m...
-         Starting [0;1;39mDisk Manager[0m...
-[[0;32m  OK  [0m] Started [0;1;39mDaily rotation of log files[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily apt download activities[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily apt upgrade and clean activities[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mTimers[0m.
-         Starting [0;1;39mRestore /etc/resolv.conf if…hed before the ppp link was shut down[0m...
-         Starting [0;1;39mModem Manager[0m...
-[[0;32m  OK  [0m] Started [0;1;39mRegular background program processing daemon[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSave/Restore Sound Card State[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSwitcheroo Control Proxy service[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mSound Card[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSystem Logging Service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mWPA supplicant[0m.
-[[0;32m  OK  [0m] Started [0;1;39mRestore /etc/resolv.conf if …ashed before the ppp link was shut down[0m.
-[[0;32m  OK  [0m] Started [0;1;39mAvahi mDNS/DNS-SD Stack[0m.
-         Starting [0;1;39mAuthorization Manager[0m...
-[[0;32m  OK  [0m] Started [0;1;39mNetwork Manager[0m.
-[[0;32m  OK  [0m] Started [0;1;39mAuthorization Manager[0m.
-[[0;32m  OK  [0m] Started [0;1;39mAccounts Service[0m.
-         Starting [0;1;39mHostname Service[0m...
-[[0;32m  OK  [0m] Started [0;1;39mRaise network interfaces[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mNetwork[0m.
-         Starting [0;1;39mPermit User Sessions[0m...
-         Starting [0;1;39mOpenBSD Secure Shell server[0m...
-[[0;32m  OK  [0m] Started [0;1;39mLogin Service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mModem Manager[0m.
-[[0;32m  OK  [0m] Started [0;1;39mUnattended Upgrades Shutdown[0m.
-[[0;32m  OK  [0m] Started [0;1;39mPermit User Sessions[0m.
-         Starting [0;1;39mGNOME Display Manager[0m...
-         Starting [0;1;39mHold until boot process finishes up[0m...
-[[0;32m  OK  [0m] Started [0;1;39mOpenBSD Secure Shell server[0m.
-[[0;32m  OK  [0m] Started [0;1;39mGNOME Display Manager[0m.
-[[0;32m  OK  [0m] Started [0;1;39mHostname Service[0m.
-/dev/mapper/debian10--vg-root: clean, 132887/1525920 files, 1006712/6103040 blocks
-[[0;32m  OK  [0m] Started [0;1;39mTell Plymouth To Write Out Runtime Data[0m.
-[[0;32m  OK  [0m] Started [0;1;39mFlush Journal to Persistent Storage[0m.
-         Starting [0;1;39mCreate Volatile Files and Directories[0m...
-         Starting [0;1;39mShow Plymouth Boot Screen[0m...
-         Starting [0;1;39mTell Plymouth To Write Out Runtime Data[0m...
-[[0;32m  OK  [0m] Started [0;1;39mCreate Volatile Files and Directories[0m.
-         Starting [0;1;39mNetwork Time Synchronization[0m...
-         Starting [0;1;39mUpdate UTMP about System Boot/Shutdown[0m...
-[[0;32m  OK  [0m] Started [0;1;39mTell Plymouth To Write Out Runtime Data[0m.
-[[0;32m  OK  [0m] Started [0;1;39mUpdate UTMP about System Boot/Shutdown[0m.
-[[0;32m  OK  [0m] Started [0;1;39mShow Plymouth Boot Screen[0m.
-[[0;32m  OK  [0m] Started [0;1;39mLoad AppArmor profiles[0m.
-         Starting [0;1;39mRaise network interfaces[0m...
-[[0;32m  OK  [0m] Started [0;1;39mRaise network interfaces[0m.
-[[0;32m  OK  [0m] Started [0;1;39mNetwork Time Synchronization[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mSystem Time Synchronized[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mSystem Initialization[0m.
-[[0;32m  OK  [0m] Started [0;1;39mTrigger anacron every hour[0m.
-[[0;32m  OK  [0m] Listening on [0;1;39mD-Bus System Message Bus Socket[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily Cleanup of Temporary Directories[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily man-db regeneration[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily rotation of log files[0m.
-[[0;32m  OK  [0m] Listening on [0;1;39mAvahi mDNS/DNS-SD Stack Activation Socket[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mSockets[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mBasic System[0m.
-[[0;32m  OK  [0m] Started [0;1;39mRegular background program processing daemon[0m.
-         Starting [0;1;39mLogin Service[0m...
-         Starting [0;1;39mRestore /etc/resolv.conf if…hed before the ppp link was shut down[0m...
-         Starting [0;1;39mSwitcheroo Control Proxy service[0m...
-         Starting [0;1;39mAccounts Service[0m...
-[[0;32m  OK  [0m] Reached target [0;1;39mLogin Prompts[0m.
-[[0;32m  OK  [0m] Started [0;1;39mD-Bus System Message Bus[0m.
-         Starting [0;1;39mModem Manager[0m...
-         Starting [0;1;39mSystem Logging Service[0m...
-         Starting [0;1;39mDisk Manager[0m...
-[[0;32m  OK  [0m] Started [0;1;39mManage Sound Card State (restore and store)[0m.
-         Starting [0;1;39mSave/Restore Sound Card State[0m...
-[[0;32m  OK  [0m] Started [0;1;39mDaily apt download activities[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily apt upgrade and clean activities[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mTimers[0m.
-         Starting [0;1;39mAvahi mDNS/DNS-SD Stack[0m...
-         Starting [0;1;39mNetwork Manager[0m...
-         Starting [0;1;39mWPA supplicant[0m...
-[[0;32m  OK  [0m] Started [0;1;39mSwitcheroo Control Proxy service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mRestore /etc/resolv.conf if …ashed before the ppp link was shut down[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSystem Logging Service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSave/Restore Sound Card State[0m.
-[[0;32m  OK  [0m] Started [0;1;39mWPA supplicant[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mSound Card[0m.
-[[0;32m  OK  [0m] Started [0;1;39mAvahi mDNS/DNS-SD Stack[0m.
-         Starting [0;1;39mAuthorization Manager[0m...
-[[0;32m  OK  [0m] Started [0;1;39mLogin Service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mAuthorization Manager[0m.
-[[0;32m  OK  [0m] Started [0;1;39mAccounts Service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mNetwork Manager[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mNetwork[0m.
-         Starting [0;1;39mOpenBSD Secure Shell server[0m...
-[[0;32m  OK  [0m] Started [0;1;39mUnattended Upgrades Shutdown[0m.
-         Starting [0;1;39mPermit User Sessions[0m...
-[[0;32m  OK  [0m] Started [0;1;39mModem Manager[0m.
-         Starting [0;1;39mHostname Service[0m...
-[[0;32m  OK  [0m] Started [0;1;39mPermit User Sessions[0m.
-         Starting [0;1;39mGNOME Display Manager[0m...
-         Starting [0;1;39mHold until boot process finishes up[0m...
-[[0;32m  OK  [0m] Started [0;1;39mOpenBSD Secure Shell server[0m.
-[[0;32m  OK  [0m] Started [0;1;39mGNOME Display Manager[0m.
-/dev/mapper/debian10--vg-root: clean, 132887/1525920 files, 1006712/6103040 blocks
-[[0;32m  OK  [0m] Started [0;1;39mTell Plymouth To Write Out Runtime Data[0m.
-[[0;32m  OK  [0m] Started [0;1;39mLoad/Save Random Seed[0m.
-[[0;32m  OK  [0m] Started [0;1;39mFlush Journal to Persistent Storage[0m.
-         Starting [0;1;39mCreate Volatile Files and Directories[0m...
-[[0;32m  OK  [0m] Started [0;1;39mCreate Volatile Files and Directories[0m.
-         Starting [0;1;39mUpdate UTMP about System Boot/Shutdown[0m...
-         Starting [0;1;39mNetwork Time Synchronization[0m...
-[[0;32m  OK  [0m] Started [0;1;39mUpdate UTMP about System Boot/Shutdown[0m.
-[[0;32m  OK  [0m] Started [0;1;39mLoad AppArmor profiles[0m.
-         Starting [0;1;39mRaise network interfaces[0m...
-[[0;32m  OK  [0m] Started [0;1;39mRaise network interfaces[0m.
-[[0;32m  OK  [0m] Started [0;1;39mNetwork Time Synchronization[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mSystem Time Synchronized[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mSystem Initialization[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily man-db regeneration[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily apt download activities[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily rotation of log files[0m.
-[[0;32m  OK  [0m] Listening on [0;1;39mD-Bus System Message Bus Socket[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily apt upgrade and clean activities[0m.
-[[0;32m  OK  [0m] Listening on [0;1;39mAvahi mDNS/DNS-SD Stack Activation Socket[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mSockets[0m.
-[[0;32m  OK  [0m] Started [0;1;39mTrigger anacron every hour[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mBasic System[0m.
-         Starting [0;1;39mAvahi mDNS/DNS-SD Stack[0m...
-         Starting [0;1;39mDisk Manager[0m...
-         Starting [0;1;39mSwitcheroo Control Proxy service[0m...
-[[0;32m  OK  [0m] Started [0;1;39mDaily Cleanup of Temporary Directories[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mTimers[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mLogin Prompts[0m.
-         Starting [0;1;39mModem Manager[0m...
-         Starting [0;1;39mLogin Service[0m...
-[[0;32m  OK  [0m] Started [0;1;39mManage Sound Card State (restore and store)[0m.
-         Starting [0;1;39mSave/Restore Sound Card State[0m...
-[[0;32m  OK  [0m] Started [0;1;39mD-Bus System Message Bus[0m.
-         Starting [0;1;39mWPA supplicant[0m...
-         Starting [0;1;39mNetwork Manager[0m...
-         Starting [0;1;39mSystem Logging Service[0m...
-[[0;32m  OK  [0m] Started [0;1;39mRegular background program processing daemon[0m.
-         Starting [0;1;39mRestore /etc/resolv.conf if…hed before the ppp link was shut down[0m...
-         Starting [0;1;39mAccounts Service[0m...
-[[0;32m  OK  [0m] Started [0;1;39mSwitcheroo Control Proxy service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSave/Restore Sound Card State[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mSound Card[0m.
-[[0;32m  OK  [0m] Started [0;1;39mWPA supplicant[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSystem Logging Service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mRestore /etc/resolv.conf if …ashed before the ppp link was shut down[0m.
-[[0;32m  OK  [0m] Started [0;1;39mAvahi mDNS/DNS-SD Stack[0m.
-         Starting [0;1;39mAuthorization Manager[0m...
-[[0;32m  OK  [0m] Started [0;1;39mLogin Service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mAuthorization Manager[0m.
-[[0;32m  OK  [0m] Started [0;1;39mAccounts Service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mNetwork Manager[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mNetwork[0m.
-         Starting [0;1;39mPermit User Sessions[0m...
-[[0;32m  OK  [0m] Started [0;1;39mUnattended Upgrades Shutdown[0m.
-         Starting [0;1;39mOpenBSD Secure Shell server[0m...
-[[0;32m  OK  [0m] Started [0;1;39mPermit User Sessions[0m.
-[[0;32m  OK  [0m] Started [0;1;39mModem Manager[0m.
-         Starting [0;1;39mHostname Service[0m...
-         Starting [0;1;39mGNOME Display Manager[0m...
-         Starting [0;1;39mHold until boot process finishes up[0m...
-[[0;32m  OK  [0m] Started [0;1;39mOpenBSD Secure Shell server[0m.
-[[0;32m  OK  [0m] Started [0;1;39mGNOME Display Manager[0m.
-/dev/mapper/debian10--vg-root: clean, 132887/1525920 files, 1006712/6103040 blocks
-[[0;32m  OK  [0m] Started [0;1;39mTell Plymouth To Write Out Runtime Data[0m.
-         Starting [0;1;39mShow Plymouth Boot Screen[0m...
-         Starting [0;1;39mTell Plymouth To Write Out Runtime Data[0m...
-[[0;32m  OK  [0m] Started [0;1;39mCreate Volatile Files and Directories[0m.
-         Starting [0;1;39mUpdate UTMP about System Boot/Shutdown[0m...
-         Starting [0;1;39mNetwork Time Synchronization[0m...
-[[0;32m  OK  [0m] Started [0;1;39mTell Plymouth To Write Out Runtime Data[0m.
-[[0;32m  OK  [0m] Started [0;1;39mUpdate UTMP about System Boot/Shutdown[0m.
-[[0;32m  OK  [0m] Started [0;1;39mLoad AppArmor profiles[0m.
-         Starting [0;1;39mRaise network interfaces[0m...
-[[0;32m  OK  [0m] Started [0;1;39mShow Plymouth Boot Screen[0m.
-[[0;32m  OK  [0m] Started [0;1;39mRaise network interfaces[0m.
-[[0;32m  OK  [0m] Started [0;1;39mNetwork Time Synchronization[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mSystem Time Synchronized[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mSystem Initialization[0m.
-[[0;32m  OK  [0m] Started [0;1;39mTrigger anacron every hour[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily apt download activities[0m.
-[[0;32m  OK  [0m] Listening on [0;1;39mAvahi mDNS/DNS-SD Stack Activation Socket[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily rotation of log files[0m.
-[[0;32m  OK  [0m] Listening on [0;1;39mD-Bus System Message Bus Socket[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mSockets[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mBasic System[0m.
-         Starting [0;1;39mAvahi mDNS/DNS-SD Stack[0m...
-[[0;32m  OK  [0m] Started [0;1;39mRegular background program processing daemon[0m.
-         Starting [0;1;39mSystem Logging Service[0m...
-[[0;32m  OK  [0m] Reached target [0;1;39mLogin Prompts[0m.
-         Starting [0;1;39mModem Manager[0m...
-         Starting [0;1;39mDisk Manager[0m...
-[[0;32m  OK  [0m] Started [0;1;39mD-Bus System Message Bus[0m.
-[[0;32m  OK  [0m] Started [0;1;39mManage Sound Card State (restore and store)[0m.
-         Starting [0;1;39mSave/Restore Sound Card State[0m...
-[[0;32m  OK  [0m] Started [0;1;39mDaily apt upgrade and clean activities[0m.
-         Starting [0;1;39mNetwork Manager[0m...
-         Starting [0;1;39mSwitcheroo Control Proxy service[0m...
-         Starting [0;1;39mWPA supplicant[0m...
-[[0;32m  OK  [0m] Started [0;1;39mDaily man-db regeneration[0m.
-         Starting [0;1;39mRestore /etc/resolv.conf if…hed before the ppp link was shut down[0m...
-         Starting [0;1;39mAccounts Service[0m...
-         Starting [0;1;39mLogin Service[0m...
-[[0;32m  OK  [0m] Started [0;1;39mDaily Cleanup of Temporary Directories[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mTimers[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSave/Restore Sound Card State[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSwitcheroo Control Proxy service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSystem Logging Service[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mSound Card[0m.
-[[0;32m  OK  [0m] Started [0;1;39mWPA supplicant[0m.
-[[0;32m  OK  [0m] Started [0;1;39mRestore /etc/resolv.conf if …ashed before the ppp link was shut down[0m.
-[[0;32m  OK  [0m] Started [0;1;39mAvahi mDNS/DNS-SD Stack[0m.
-[[0;32m  OK  [0m] Started [0;1;39mNetwork Manager[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mNetwork[0m.
-         Starting [0;1;39mPermit User Sessions[0m...
-         Starting [0;1;39mOpenBSD Secure Shell server[0m...
-         Starting [0;1;39mAuthorization Manager[0m...
-         Starting [0;1;39mHostname Service[0m...
-[[0;32m  OK  [0m] Started [0;1;39mPermit User Sessions[0m.
-         Starting [0;1;39mHold until boot process finishes up[0m...
-         Starting [0;1;39mGNOME Display Manager[0m...
-[[0;32m  OK  [0m] Started [0;1;39mLogin Service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mUnattended Upgrades Shutdown[0m.
-[[0;32m  OK  [0m] Started [0;1;39mAuthorization Manager[0m.
-[[0;32m  OK  [0m] Started [0;1;39mAccounts Service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mGNOME Display Manager[0m.
-[[0;32m  OK  [0m] Started [0;1;39mOpenBSD Secure Shell server[0m.
-[[0;32m  OK  [0m] Started [0;1;39mModem Manager[0m.
-/dev/mapper/debian10--vg-root: clean, 155927/1525920 files, 1067035/6103040 blocks
-[[0;32m  OK  [0m] Started [0;1;39mTell Plymouth To Write Out Runtime Data[0m.
-[[0;32m  OK  [0m] Started [0;1;39mCreate Volatile Files and Directories[0m.
-         Starting [0;1;39mNetwork Time Synchronization[0m...
-         Starting [0;1;39mUpdate UTMP about System Boot/Shutdown[0m...
-[[0;32m  OK  [0m] Started [0;1;39mUpdate UTMP about System Boot/Shutdown[0m.
-[[0;32m  OK  [0m] Started [0;1;39mLoad AppArmor profiles[0m.
-         Starting [0;1;39mRaise network interfaces[0m...
-[[0;32m  OK  [0m] Started [0;1;39mRaise network interfaces[0m.
-[[0;32m  OK  [0m] Started [0;1;39mNetwork Time Synchronization[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mSystem Time Synchronized[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mSystem Initialization[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily rotation of log files[0m.
-[[0;32m  OK  [0m] Started [0;1;39mTrigger anacron every hour[0m.
-[[0;32m  OK  [0m] Listening on [0;1;39mD-Bus System Message Bus Socket[0m.
-[[0;32m  OK  [0m] Listening on [0;1;39mAvahi mDNS/DNS-SD Stack Activation Socket[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mSockets[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mBasic System[0m.
-[[0;32m  OK  [0m] Started [0;1;39mManage Sound Card State (restore and store)[0m.
-         Starting [0;1;39mModem Manager[0m...
-         Starting [0;1;39mDisk Manager[0m...
-         Starting [0;1;39mLogin Service[0m...
-         Starting [0;1;39mSwitcheroo Control Proxy service[0m...
-         Starting [0;1;39mAvahi mDNS/DNS-SD Stack[0m...
-         Starting [0;1;39mSave/Restore Sound Card State[0m...
-[[0;32m  OK  [0m] Started [0;1;39mRegular background program processing daemon[0m.
-         Starting [0;1;39mSystem Logging Service[0m...
-[[0;32m  OK  [0m] Started [0;1;39mDaily Cleanup of Temporary Directories[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily apt download activities[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily apt upgrade and clean activities[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily man-db regeneration[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mTimers[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mLogin Prompts[0m.
-[[0;32m  OK  [0m] Started [0;1;39mD-Bus System Message Bus[0m.
-         Starting [0;1;39mNetwork Manager[0m...
-         Starting [0;1;39mWPA supplicant[0m...
-         Starting [0;1;39mAccounts Service[0m...
-         Starting [0;1;39mRestore /etc/resolv.conf if…hed before the ppp link was shut down[0m...
-[[0;32m  OK  [0m] Started [0;1;39mSwitcheroo Control Proxy service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSystem Logging Service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSave/Restore Sound Card State[0m.
-[[0;32m  OK  [0m] Started [0;1;39mRestore /etc/resolv.conf if …ashed before the ppp link was shut down[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mSound Card[0m.
-[[0;32m  OK  [0m] Started [0;1;39mLogin Service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mWPA supplicant[0m.
-[[0;32m  OK  [0m] Started [0;1;39mAvahi mDNS/DNS-SD Stack[0m.
-[[0;32m  OK  [0m] Started [0;1;39mNetwork Manager[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mNetwork[0m.
-         Starting [0;1;39mPermit User Sessions[0m...
-[[0;32m  OK  [0m] Started [0;1;39mUnattended Upgrades Shutdown[0m.
-         Starting [0;1;39mOpenBSD Secure Shell server[0m...
-         Starting [0;1;39mAuthorization Manager[0m...
-         Starting [0;1;39mHostname Service[0m...
-[[0;32m  OK  [0m] Started [0;1;39mPermit User Sessions[0m.
-         Starting [0;1;39mHold until boot process finishes up[0m...
-         Starting [0;1;39mGNOME Display Manager[0m...
-[[0;32m  OK  [0m] Started [0;1;39mOpenBSD Secure Shell server[0m.
-[[0;32m  OK  [0m] Started [0;1;39mGNOME Display Manager[0m.
-[[0;32m  OK  [0m] Started [0;1;39mAuthorization Manager[0m.
-[[0;32m  OK  [0m] Started [0;1;39mAccounts Service[0m.
-/dev/mapper/debian10--vg-root: clean, 156320/1525920 files, 1074192/6103040 blocks
-[[0;32m  OK  [0m] Started [0;1;39mTell Plymouth To Write Out Runtime Data[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSet console font and keymap[0m.
-[[0;32m  OK  [0m] Started [0;1;39mCreate Volatile Files and Directories[0m.
-         Starting [0;1;39mUpdate UTMP about System Boot/Shutdown[0m...
-[[0;32m  OK  [0m] Started [0;1;39mShow Plymouth Boot Screen[0m.
-[[0;32m  OK  [0m] Started [0;1;39mUpdate UTMP about System Boot/Shutdown[0m.
-[[0;32m  OK  [0m] Started [0;1;39mLoad AppArmor profiles[0m.
-         Starting [0;1;39mRaise network interfaces[0m...
-[[0;32m  OK  [0m] Reached target [0;1;39mSystem Initialization[0m.
-[[0;32m  OK  [0m] Listening on [0;1;39mD-Bus System Message Bus Socket[0m.
-[[0;32m  OK  [0m] Listening on [0;1;39mAvahi mDNS/DNS-SD Stack Activation Socket[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mSockets[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mBasic System[0m.
-         Starting [0;1;39mSwitcheroo Control Proxy service[0m...
-         Starting [0;1;39mRestore /etc/resolv.conf if…hed before the ppp link was shut down[0m...
-[[0;32m  OK  [0m] Started [0;1;39mD-Bus System Message Bus[0m.
-         Starting [0;1;39mNetwork Manager[0m...
-[[0;32m  OK  [0m] Started [0;1;39mManage Sound Card State (restore and store)[0m.
-         Starting [0;1;39mDisk Manager[0m...
-         Starting [0;1;39mvboxadd.service[0m...
-         Starting [0;1;39mAvahi mDNS/DNS-SD Stack[0m...
-         Starting [0;1;39mLogin Service[0m...
-[[0;32m  OK  [0m] Started [0;1;39mDaily apt download activities[0m.
-         Starting [0;1;39mWPA supplicant[0m...
-         Starting [0;1;39mSystem Logging Service[0m...
-[[0;32m  OK  [0m] Reached target [0;1;39mLogin Prompts[0m.
-         Starting [0;1;39mAccounts Service[0m...
-         Starting [0;1;39mModem Manager[0m...
-[[0;32m  OK  [0m] Started [0;1;39mDaily rotation of log files[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily apt upgrade and clean activities[0m.
-[[0;32m  OK  [0m] Started [0;1;39mTrigger anacron every hour[0m.
-         Starting [0;1;39mSave/Restore Sound Card State[0m...
-[[0;32m  OK  [0m] Started [0;1;39mRegular background program processing daemon[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily man-db regeneration[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily Cleanup of Temporary Directories[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mTimers[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSwitcheroo Control Proxy service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mRestore /etc/resolv.conf if …ashed before the ppp link was shut down[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSystem Logging Service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSave/Restore Sound Card State[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mSound Card[0m.
-[[0;32m  OK  [0m] Started [0;1;39mLogin Service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mWPA supplicant[0m.
-[[0;32m  OK  [0m] Started [0;1;39mAvahi mDNS/DNS-SD Stack[0m.
-         Starting [0;1;39mAuthorization Manager[0m...
-[[0;32m  OK  [0m] Started [0;1;39mNetwork Manager[0m.
-         Starting [0;1;39mHostname Service[0m...
-[[0;32m  OK  [0m] Started [0;1;39mAuthorization Manager[0m.
-[[0;32m  OK  [0m] Started [0;1;39mAccounts Service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mRaise network interfaces[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mNetwork[0m.
-         Starting [0;1;39mPermit User Sessions[0m...
-[[0;32m  OK  [0m] Started [0;1;39mUnattended Upgrades Shutdown[0m.
-         Starting [0;1;39mOpenBSD Secure Shell server[0m...
-[[0;32m  OK  [0m] Started [0;1;39mModem Manager[0m.
-[[0;32m  OK  [0m] Started [0;1;39mPermit User Sessions[0m.
-         Starting [0;1;39mHold until boot process finishes up[0m...
-[[0;32m  OK  [0m] Started [0;1;39mOpenBSD Secure Shell server[0m.
-[[0;32m  OK  [0m] Started [0;1;39mHostname Service[0m.
-[[0;32m  OK  [0m] Listening on [0;1;39mLoad/Save RF Kill Switch Status /dev/rfkill Watch[0m.
-         Starting [0;1;39mNetwork Manager Script Dispatcher Service[0m...
-[[0;32m  OK  [0m] Started [0;1;39mDisk Manager[0m.
-[[0;32m  OK  [0m] Started [0;1;39mNetwork Manager Script Dispatcher Service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mvboxadd.service[0m.
-         Starting [0;1;39mGNOME Display Manager[0m...
-         Starting [0;1;39mvboxadd-service.service[0m...
-[[0;32m  OK  [0m] Started [0;1;39mvboxadd-service.service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mGNOME Display Manager[0m.
-/dev/mapper/debian10--vg-root: clean, 156320/1525920 files, 1074192/6103040 blocks
-[[0;32m  OK  [0m] Started [0;1;39mTell Plymouth To Write Out Runtime Data[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSet console font and keymap[0m.
-[[0;32m  OK  [0m] Started [0;1;39mCreate Volatile Files and Directories[0m.
-         Starting [0;1;39mUpdate UTMP about System Boot/Shutdown[0m...
-[[0;32m  OK  [0m] Started [0;1;39mUpdate UTMP about System Boot/Shutdown[0m.
-[[0;32m  OK  [0m] Started [0;1;39mLoad AppArmor profiles[0m.
-         Starting [0;1;39mRaise network interfaces[0m...
-[[0;32m  OK  [0m] Reached target [0;1;39mSystem Initialization[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily rotation of log files[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily apt download activities[0m.
-[[0;32m  OK  [0m] Started [0;1;39mTrigger anacron every hour[0m.
-[[0;32m  OK  [0m] Listening on [0;1;39mD-Bus System Message Bus Socket[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily apt upgrade and clean activities[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily man-db regeneration[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily Cleanup of Temporary Directories[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mTimers[0m.
-[[0;32m  OK  [0m] Listening on [0;1;39mAvahi mDNS/DNS-SD Stack Activation Socket[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mSockets[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mBasic System[0m.
-         Starting [0;1;39mAccounts Service[0m...
-         Starting [0;1;39mvboxadd.service[0m...
-         Starting [0;1;39mDisk Manager[0m...
-         Starting [0;1;39mRestore /etc/resolv.conf if…hed before the ppp link was shut down[0m...
-[[0;32m  OK  [0m] Started [0;1;39mRegular background program processing daemon[0m.
-         Starting [0;1;39mLogin Service[0m...
-[[0;32m  OK  [0m] Started [0;1;39mManage Sound Card State (restore and store)[0m.
-         Starting [0;1;39mSave/Restore Sound Card State[0m...
-[[0;32m  OK  [0m] Started [0;1;39mRun anacron jobs[0m.
-         Starting [0;1;39mSwitcheroo Control Proxy service[0m...
-[[0;32m  OK  [0m] Started [0;1;39mD-Bus System Message Bus[0m.
-         Starting [0;1;39mWPA supplicant[0m...
-         Starting [0;1;39mModem Manager[0m...
-         Starting [0;1;39mAvahi mDNS/DNS-SD Stack[0m...
-[[0;32m  OK  [0m] Reached target [0;1;39mLogin Prompts[0m.
-         Starting [0;1;39mNetwork Manager[0m...
-         Starting [0;1;39mSystem Logging Service[0m...
-[[0;32m  OK  [0m] Started [0;1;39mRestore /etc/resolv.conf if …ashed before the ppp link was shut down[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSwitcheroo Control Proxy service[0m.
-         Starting [0;1;39mRotate log files[0m...
-         Starting [0;1;39mDaily man-db regeneration[0m...
-[[0;32m  OK  [0m] Started [0;1;39mLogin Service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSystem Logging Service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mRaise network interfaces[0m.
-[[0;32m  OK  [0m] Started [0;1;39mWPA supplicant[0m.
-         Starting [0;1;39mAuthorization Manager[0m...
-[[0;32m  OK  [0m] Started [0;1;39mAvahi mDNS/DNS-SD Stack[0m.
-[[0;32m  OK  [0m] Started [0;1;39mNetwork Manager[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mNetwork[0m.
-[[0;32m  OK  [0m] Started [0;1;39mUnattended Upgrades Shutdown[0m.
-         Starting [0;1;39mOpenBSD Secure Shell server[0m...
-         Starting [0;1;39mPermit User Sessions[0m...
-         Starting [0;1;39mDaily apt download activities[0m...
-         Starting [0;1;39mHostname Service[0m...
-[[0;32m  OK  [0m] Started [0;1;39mAuthorization Manager[0m.
-[[0;32m  OK  [0m] Started [0;1;39mPermit User Sessions[0m.
-[[0;32m  OK  [0m] Started [0;1;39mAccounts Service[0m.
-         Starting [0;1;39mHold until boot process finishes up[0m...
-[[0;32m  OK  [0m] Started [0;1;39mModem Manager[0m.
-[[0;32m  OK  [0m] Started [0;1;39mOpenBSD Secure Shell server[0m.
-[[0;32m  OK  [0m] Started [0;1;39mHostname Service[0m.
-         Starting [0;1;39mNetwork Manager Script Dispatcher Service[0m...
-[[0;32m  OK  [0m] Listening on [0;1;39mLoad/Save RF Kill Switch Status /dev/rfkill Watch[0m.
-[[0;32m  OK  [0m] Started [0;1;39mNetwork Manager Script Dispatcher Service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDisk Manager[0m.
-[[0;32m  OK  [0m] Started [0;1;39mRotate log files[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSave/Restore Sound Card State[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mSound Card[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily apt download activities[0m.
-         Starting [0;1;39mDaily apt upgrade and clean activities[0m...
-[[0;32m  OK  [0m] Started [0;1;39mDaily man-db regeneration[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily apt upgrade and clean activities[0m.
-[[0;32m  OK  [0m] Started [0;1;39mvboxadd.service[0m.
-         Starting [0;1;39mvboxadd-service.service[0m...
-         Starting [0;1;39mGNOME Display Manager[0m...
-[[0;32m  OK  [0m] Started [0;1;39mGNOME Display Manager[0m.
-[[0;32m  OK  [0m] Started [0;1;39mvboxadd-service.service[0m.
-/dev/mapper/debian10--vg-root: clean, 159073/1525920 files, 1092876/6103040 blocks
-[[0;32m  OK  [0m] Started [0;1;39mTell Plymouth To Write Out Runtime Data[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSet console font and keymap[0m.
-[[0;32m  OK  [0m] Started [0;1;39mCreate Volatile Files and Directories[0m.
-         Starting [0;1;39mUpdate UTMP about System Boot/Shutdown[0m...
-[[0;32m  OK  [0m] Started [0;1;39mUpdate UTMP about System Boot/Shutdown[0m.
-[[0;32m  OK  [0m] Started [0;1;39mLoad AppArmor profiles[0m.
-         Starting [0;1;39mRaise network interfaces[0m...
-[[0;32m  OK  [0m] Reached target [0;1;39mSystem Initialization[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily man-db regeneration[0m.
-[[0;32m  OK  [0m] Started [0;1;39mTrigger anacron every hour[0m.
-[[0;32m  OK  [0m] Listening on [0;1;39mD-Bus System Message Bus Socket[0m.
-[[0;32m  OK  [0m] Listening on [0;1;39mAvahi mDNS/DNS-SD Stack Activation Socket[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mSockets[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily apt download activities[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily rotation of log files[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mBasic System[0m.
-[[0;32m  OK  [0m] Started [0;1;39mRun anacron jobs[0m.
-         Starting [0;1;39mvboxadd.service[0m...
-         Starting [0;1;39mModem Manager[0m...
-         Starting [0;1;39mAccounts Service[0m...
-[[0;32m  OK  [0m] Reached target [0;1;39mLogin Prompts[0m.
-         Starting [0;1;39mSystem Logging Service[0m...
-[[0;32m  OK  [0m] Started [0;1;39mManage Sound Card State (restore and store)[0m.
-         Starting [0;1;39mSave/Restore Sound Card State[0m...
-         Starting [0;1;39mLogin Service[0m...
-[[0;32m  OK  [0m] Started [0;1;39mD-Bus System Message Bus[0m.
-         Starting [0;1;39mWPA supplicant[0m...
-         Starting [0;1;39mNetwork Manager[0m...
-         Starting [0;1;39mAvahi mDNS/DNS-SD Stack[0m...
-         Starting [0;1;39mDisk Manager[0m...
-         Starting [0;1;39mSwitcheroo Control Proxy service[0m...
-         Starting [0;1;39mRestore /etc/resolv.conf if…hed before the ppp link was shut down[0m...
-[[0;32m  OK  [0m] Started [0;1;39mRegular background program processing daemon[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily Cleanup of Temporary Directories[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily apt upgrade and clean activities[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mTimers[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSave/Restore Sound Card State[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSwitcheroo Control Proxy service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSystem Logging Service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mRestore /etc/resolv.conf if …ashed before the ppp link was shut down[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mSound Card[0m.
-[[0;32m  OK  [0m] Started [0;1;39mWPA supplicant[0m.
-[[0;32m  OK  [0m] Started [0;1;39mAvahi mDNS/DNS-SD Stack[0m.
-[[0;32m  OK  [0m] Started [0;1;39mLogin Service[0m.
-         Starting [0;1;39mAuthorization Manager[0m...
-[[0;32m  OK  [0m] Started [0;1;39mNetwork Manager[0m.
-         Starting [0;1;39mHostname Service[0m...
-[[0;32m  OK  [0m] Started [0;1;39mAuthorization Manager[0m.
-[[0;32m  OK  [0m] Started [0;1;39mAccounts Service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mRaise network interfaces[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mNetwork[0m.
-[[0;32m  OK  [0m] Started [0;1;39mUnattended Upgrades Shutdown[0m.
-         Starting [0;1;39mOpenBSD Secure Shell server[0m...
-         Starting [0;1;39mPermit User Sessions[0m...
-[[0;32m  OK  [0m] Started [0;1;39mModem Manager[0m.
-[[0;32m  OK  [0m] Started [0;1;39mPermit User Sessions[0m.
-         Starting [0;1;39mHold until boot process finishes up[0m...
-[[0;32m  OK  [0m] Started [0;1;39mOpenBSD Secure Shell server[0m.
-[[0;32m  OK  [0m] Started [0;1;39mHostname Service[0m.
-         Starting [0;1;39mNetwork Manager Script Dispatcher Service[0m...
-[[0;32m  OK  [0m] Listening on [0;1;39mLoad/Save RF Kill Switch Status /dev/rfkill Watch[0m.
-[[0;32m  OK  [0m] Started [0;1;39mNetwork Manager Script Dispatcher Service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDisk Manager[0m.
-[[0;32m  OK  [0m] Started [0;1;39mvboxadd.service[0m.
-         Starting [0;1;39mGNOME Display Manager[0m...
-         Starting [0;1;39mvboxadd-service.service[0m...
-[[0;32m  OK  [0m] Started [0;1;39mvboxadd-service.service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mGNOME Display Manager[0m.
-/dev/mapper/debian10--vg-root: clean, 198947/1525920 files, 1356368/6103040 blocks
-[[0;32m  OK  [0m] Started [0;1;39mTell Plymouth To Write Out Runtime Data[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSet console font and keymap[0m.
-[[0;32m  OK  [0m] Started [0;1;39mCreate Volatile Files and Directories[0m.
-         Starting [0;1;39mUpdate UTMP about System Boot/Shutdown[0m...
-[[0;32m  OK  [0m] Started [0;1;39mUpdate UTMP about System Boot/Shutdown[0m.
-[[0;32m  OK  [0m] Started [0;1;39mLoad AppArmor profiles[0m.
-         Starting [0;1;39mRaise network interfaces[0m...
-[[0;32m  OK  [0m] Reached target [0;1;39mSystem Initialization[0m.
-[[0;32m  OK  [0m] Started [0;1;39mTrigger anacron every hour[0m.
-[[0;32m  OK  [0m] Listening on [0;1;39mAvahi mDNS/DNS-SD Stack Activation Socket[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily man-db regeneration[0m.
-[[0;32m  OK  [0m] Listening on [0;1;39mD-Bus System Message Bus Socket[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mSockets[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mBasic System[0m.
-         Starting [0;1;39mSystem Logging Service[0m...
-         Starting [0;1;39mRestore /etc/resolv.conf if the system crashed before the ppp link was shut down[0m...
-[[0;32m  OK  [0m] Reached target [0;1;39mLogin Prompts[0m.
-[[0;32m  OK  [0m] Started [0;1;39mRegular background program processing daemon[0m.
-         Starting [0;1;39mvboxadd.service[0m...
-         Starting [0;1;39mLogin Service[0m...
-         Starting [0;1;39mAvahi mDNS/DNS-SD Stack[0m...
-         Starting [0;1;39mDisk Manager[0m...
-         Starting [0;1;39mModem Manager[0m...
-         Starting [0;1;39mAccounts Service[0m...
-[[0;32m  OK  [0m] Started [0;1;39mDaily rotation of log files[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily Cleanup of Temporary Directories[0m.
-[[0;32m  OK  [0m] Started [0;1;39mD-Bus System Message Bus[0m.
-         Starting [0;1;39mNetwork Manager[0m...
-         Starting [0;1;39mWPA supplicant[0m...
-[[0;32m  OK  [0m] Started [0;1;39mRun anacron jobs[0m.
-         Starting [0;1;39mSwitcheroo Control Proxy service[0m...
-[[0;32m  OK  [0m] Started [0;1;39mManage Sound Card State (restore and store)[0m.
-         Starting [0;1;39mSave/Restore Sound Card State[0m...
-[[0;32m  OK  [0m] Started [0;1;39mDaily apt download activities[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily apt upgrade and clean activities[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mTimers[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSystem Logging Service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mRestore /etc/resolv.conf if the system crashed before the ppp link was shut down[0m.
-[[0;32m  OK  [0m] Started [0;1;39mRaise network interfaces[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSwitcheroo Control Proxy service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mLogin Service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mSave/Restore Sound Card State[0m.
-[[0;32m  OK  [0m] Started [0;1;39mWPA supplicant[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mSound Card[0m.
-[[0;32m  OK  [0m] Started [0;1;39mAvahi mDNS/DNS-SD Stack[0m.
-         Starting [0;1;39mAuthorization Manager[0m...
-[[0;32m  OK  [0m] Started [0;1;39mNetwork Manager[0m.
-[[0;32m  OK  [0m] Reached target [0;1;39mNetwork[0m.
-         Starting [0;1;39mDaily apt upgrade and clean activities[0m...
-         Starting [0;1;39mOpenBSD Secure Shell server[0m...
-[[0;32m  OK  [0m] Started [0;1;39mUnattended Upgrades Shutdown[0m.
-         Starting [0;1;39mPermit User Sessions[0m...
-[[0;32m  OK  [0m] Started [0;1;39mAuthorization Manager[0m.
-[[0;32m  OK  [0m] Started [0;1;39mAccounts Service[0m.
-         Starting [0;1;39mHostname Service[0m...
-[[0;32m  OK  [0m] Started [0;1;39mPermit User Sessions[0m.
-         Starting [0;1;39mHold until boot process finishes up[0m...
-[[0;32m  OK  [0m] Started [0;1;39mModem Manager[0m.
-[[0;32m  OK  [0m] Started [0;1;39mOpenBSD Secure Shell server[0m.
-[[0;32m  OK  [0m] Started [0;1;39mHostname Service[0m.
-         Starting [0;1;39mNetwork Manager Script Dispatcher Service[0m...
-[[0;32m  OK  [0m] Listening on [0;1;39mLoad/Save RF Kill Switch Status /dev/rfkill Watch[0m.
-[[0;32m  OK  [0m] Started [0;1;39mNetwork Manager Script Dispatcher Service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDisk Manager[0m.
-[[0;32m  OK  [0m] Started [0;1;39mDaily apt upgrade and clean activities[0m.
-[[0;32m  OK  [0m] Started [0;1;39mvboxadd.service[0m.
-         Starting [0;1;39mvboxadd-service.service[0m...
-         Starting [0;1;39mGNOME Display Manager[0m...
-[[0;32m  OK  [0m] Started [0;1;39mvboxadd-service.service[0m.
-[[0;32m  OK  [0m] Started [0;1;39mGNOME Display Manager[0m.
+Nov 15 14:48:56 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Nov 15 14:48:57 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Nov 15 14:48:57 +00:00 (none)  Bringing up the loopback interface... OK
+Nov 15 14:48:57 +00:00 (none)  Setting hostname to ogenser... OK
+Nov 15 14:48:57 +00:00 ogenser  Populating /dev with device nodes...  OK
+Nov 15 14:48:51 +00:00 ogenser  Activating all swap files/partitions... OK
+Nov 15 14:48:51 +00:00 ogenser  Mounting root file system in read-only mode...  OK
+Nov 15 14:48:51 +00:00 ogenser  Checking file systems... OK
+Nov 15 14:48:51 +00:00 ogenser  Remounting root file system in read-write mode... OK
+Nov 15 14:48:51 +00:00 ogenser  Mounting remaining file systems... OK
+Nov 15 14:48:51 +00:00 ogenser  Cleaning file systems: /tmp OK
+Nov 15 14:48:51 +00:00 ogenser  Retrying failed uevents, if any... OK
+Nov 15 14:48:53 +00:00 ogenser  Setting up Linux console... OK
+Nov 15 14:48:53 +00:00 ogenser  Starting system log daemon... OK
+Nov 15 14:48:53 +00:00 ogenser  Starting kernel log daemon... OK
+Nov 15 14:48:53 +00:00 ogenser  Bringing up the eth0 interface...Nov 15 14:48:53 +00:00 ogenser  Interface eth0 doesn't exist. FAIL
+--------
+Nov 15 14:58:44 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Nov 15 14:58:44 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Nov 15 14:58:44 +00:00 (none)  Bringing up the loopback interface... OK
+Nov 15 14:58:44 +00:00 (none)  Setting hostname to ogenser... OK
+Nov 15 14:58:44 +00:00 ogenser  Populating /dev with device nodes...  OK
+Nov 15 14:58:35 +00:00 ogenser  Activating all swap files/partitions... OK
+Nov 15 14:58:35 +00:00 ogenser  Mounting root file system in read-only mode...  OK
+Nov 15 14:58:35 +00:00 ogenser  Checking file systems... OK
+Nov 15 14:58:35 +00:00 ogenser  Remounting root file system in read-write mode... OK
+Nov 15 14:58:35 +00:00 ogenser  Mounting remaining file systems... OK
+Nov 15 14:58:35 +00:00 ogenser  Cleaning file systems: /tmp OK
+Nov 15 14:58:35 +00:00 ogenser  Retrying failed uevents, if any... OK
+Nov 15 14:58:36 +00:00 ogenser  Setting up Linux console... OK
+Nov 15 14:58:36 +00:00 ogenser  Starting system log daemon... OK
+Nov 15 14:58:36 +00:00 ogenser  Starting kernel log daemon... OK
+Nov 15 14:58:36 +00:00 ogenser  Bringing up the eth0 interface...Nov 15 14:58:36 +00:00 ogenser  Interface eth0 doesn't exist. FAIL
+--------
+Nov 15 16:57:45 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Nov 15 16:57:45 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Nov 15 16:57:45 +00:00 (none)  Bringing up the loopback interface... OK
+Nov 15 16:57:45 +00:00 (none)  Setting hostname to ogenser... OK
+Nov 15 16:57:46 +00:00 ogenser  Populating /dev with device nodes...  OK
+Nov 15 16:57:37 +00:00 ogenser  Activating all swap files/partitions... OK
+Nov 15 16:57:37 +00:00 ogenser  Mounting root file system in read-only mode...  OK
+Nov 15 16:57:37 +00:00 ogenser  Checking file systems... OK
+Nov 15 16:57:37 +00:00 ogenser  Remounting root file system in read-write mode... OK
+Nov 15 16:57:37 +00:00 ogenser  Mounting remaining file systems... OK
+Nov 15 16:57:37 +00:00 ogenser  Cleaning file systems: /tmp OK
+Nov 15 16:57:37 +00:00 ogenser  Retrying failed uevents, if any... OK
+Nov 15 16:57:38 +00:00 ogenser  Setting up Linux console... OK
+Nov 15 16:57:38 +00:00 ogenser  Starting system log daemon... OK
+Nov 15 16:57:38 +00:00 ogenser  Starting kernel log daemon... OK
+Nov 15 16:57:38 +00:00 ogenser  Bringing up the enp0s3 interface... OK
+Nov 15 16:57:38 +00:00 ogenser  Adding IPv4 address 10.0.2.15 to the enp0s3 interface... OK
+Nov 15 16:57:38 +00:00 ogenser  Adding default gateway 10.0.2.2 to the enp0s3 interface... OK
+Nov 15 16:57:38 +00:00 ogenser  Bringing up the eth0 interface...Nov 15 16:57:38 +00:00 ogenser  Interface eth0 doesn't exist. FAIL
+--------
+Nov 17 21:19:49 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Nov 17 21:19:49 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Nov 17 21:19:49 +00:00 (none)  Bringing up the loopback interface... OK
+Nov 17 21:19:49 +00:00 (none)  Setting hostname to ogenser... OK
+Nov 17 21:19:49 +00:00 ogenser  Populating /dev with device nodes...  OK
+Nov 17 21:19:41 +00:00 ogenser  Activating all swap files/partitions... OK
+Nov 17 21:19:41 +00:00 ogenser  Mounting root file system in read-only mode...  OK
+Nov 17 21:19:41 +00:00 ogenser  Checking file systems... OK
+Nov 17 21:19:41 +00:00 ogenser  Remounting root file system in read-write mode... OK
+Nov 17 21:19:41 +00:00 ogenser  Mounting remaining file systems... OK
+Nov 17 21:19:41 +00:00 ogenser  Cleaning file systems: /tmp OK
+Nov 17 21:19:41 +00:00 ogenser  Retrying failed uevents, if any... OK
+Nov 17 21:19:42 +00:00 ogenser  Setting up Linux console... OK
+Nov 17 21:19:42 +00:00 ogenser  Starting system log daemon... OK
+Nov 17 21:19:42 +00:00 ogenser  Starting kernel log daemon... OK
+Nov 17 21:19:42 +00:00 ogenser  Bringing up the enp0s3 interface... OK
+Nov 17 21:19:42 +00:00 ogenser  Adding IPv4 address 10.0.2.15 to the enp0s3 interface... OK
+Nov 17 21:19:42 +00:00 ogenser  Adding default gateway 10.0.2.2 to the enp0s3 interface... OK
+Nov 17 21:19:42 +00:00 ogenser  Bringing up the eth0 interface...Nov 17 21:19:42 +00:00 ogenser  Interface eth0 doesn't exist. FAIL
+--------
+Nov 17 23:22:07 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Nov 17 23:22:07 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Nov 17 23:22:07 +00:00 (none)  Bringing up the loopback interface... OK
+Nov 17 23:22:08 +00:00 (none)  Setting hostname to ogenser... OK
+Nov 17 23:22:08 +00:00 ogenser  Populating /dev with device nodes...  OK
+Nov 17 23:21:59 +00:00 ogenser  Activating all swap files/partitions... OK
+Nov 17 23:21:59 +00:00 ogenser  Mounting root file system in read-only mode...  OK
+Nov 17 23:21:59 +00:00 ogenser  Checking file systems... OK
+Nov 17 23:21:59 +00:00 ogenser  Remounting root file system in read-write mode... OK
+Nov 17 23:21:59 +00:00 ogenser  Mounting remaining file systems... OK
+Nov 17 23:21:59 +00:00 ogenser  Cleaning file systems: /tmp OK
+Nov 17 23:21:59 +00:00 ogenser  Retrying failed uevents, if any... OK
+Nov 17 23:22:00 +00:00 ogenser  Setting up Linux console... OK
+Nov 17 23:22:00 +00:00 ogenser  Starting system log daemon... OK
+Nov 17 23:22:00 +00:00 ogenser  Starting kernel log daemon... OK
+Nov 17 23:22:00 +00:00 ogenser  Bringing up the enp0s3 interface... OK
+Nov 17 23:22:00 +00:00 ogenser  Adding IPv4 address 10.0.2.15 to the enp0s3 interface... OK
+Nov 17 23:22:00 +00:00 ogenser  Adding default gateway 10.0.2.2 to the enp0s3 interface... OK
+Nov 17 23:22:00 +00:00 ogenser  Bringing up the eth0 interface...Nov 17 23:22:00 +00:00 ogenser  Interface eth0 doesn't exist. FAIL
+Nov 17 23:22:00 +00:00 ogenser  Starting SSH Server... OK
+--------
+Nov 17 23:35:18 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Nov 17 23:35:18 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Nov 17 23:35:19 +00:00 (none)  Bringing up the loopback interface... OK
+Nov 17 23:35:19 +00:00 (none)  Setting hostname to ogenser... OK
+Nov 17 23:35:19 +00:00 ogenser  Populating /dev with device nodes...  OK
+Nov 17 23:35:10 +00:00 ogenser  Activating all swap files/partitions... OK
+Nov 17 23:35:11 +00:00 ogenser  Mounting root file system in read-only mode...  OK
+Nov 17 23:35:11 +00:00 ogenser  Checking file systems... OK
+Nov 17 23:35:11 +00:00 ogenser  Remounting root file system in read-write mode... OK
+Nov 17 23:35:11 +00:00 ogenser  Mounting remaining file systems... OK
+Nov 17 23:35:11 +00:00 ogenser  Cleaning file systems: /tmp OK
+Nov 17 23:35:11 +00:00 ogenser  Retrying failed uevents, if any... OK
+Nov 17 23:35:12 +00:00 ogenser  Setting up Linux console... OK
+Nov 17 23:35:12 +00:00 ogenser  Starting system log daemon... OK
+Nov 17 23:35:12 +00:00 ogenser  Starting kernel log daemon... OK
+Nov 17 23:35:12 +00:00 ogenser  Bringing up the enp0s3 interface... OK
+Nov 17 23:35:12 +00:00 ogenser  Adding IPv4 address 10.0.2.15 to the enp0s3 interface... OK
+Nov 17 23:35:12 +00:00 ogenser  Adding default gateway 10.0.2.2 to the enp0s3 interface... OK
+Nov 17 23:35:12 +00:00 ogenser  Bringing up the eth0 interface...Nov 17 23:35:12 +00:00 ogenser  Interface eth0 doesn't exist. FAIL
+Nov 17 23:35:12 +00:00 ogenser  Starting SSH Server... OK
+--------
