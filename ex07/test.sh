@@ -51,3 +51,20 @@ whoami
 
 echo 123 > /sys/kernel/debug/fortytwo/foo
 cat /sys/kernel/debug/fortytwo/foo
+
+### test threads
+gcc testthreads.c 
+./a.out 
+rm a.out
+
+# chown -R /sys/kernel/debug/fortytwo/
+###in case of virgin vm
+# useradd Tester
+# usermod -a -G sudo Tester
+
+###test rights
+# su Tester
+# echo 123 > /sys/kernel/debug/fortytwo/foo
+# sudo echo 123 > /sys/kernel/debug/fortytwo/foo
+# cat /sys/kernel/debug/fortytwo/foo
+# sudo cat /sys/kernel/debug/fortytwo/foo

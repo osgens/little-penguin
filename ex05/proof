@@ -1,0 +1,27 @@
+bash-5.2# make
+make -C /lib/modules/6.7.0-rc1-next-20231117/build M=/sources/little-penguin/ex05 modules 
+make[1]: Entering directory '/sources/linux-6.4.12'
+  CC [M]  /sources/little-penguin/ex05/main.o
+  MODPOST /sources/little-penguin/ex05/Module.symvers
+  CC [M]  /sources/little-penguin/ex05/main.mod.o
+  LD [M]  /sources/little-penguin/ex05/main.ko
+make[1]: Leaving directory '/sources/linux-6.4.12'
+insmod main.ko
+lsmod | grep main
+main                   12288  0
+bash-5.2# bash test.sh
+ogenser
+test.sh: line 4: echo: write error: Invalid argument
+test.sh: line 5: echo: write error: Invalid argument
+1
+0
+[Mon Nov 20 13:46:49 2023] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+[Mon Nov 20 13:46:53 2023] (udev-worker) (205) used greatest stack depth: 12784 bytes left
+[Mon Nov 20 13:48:09 2023] EXT4-fs (sda1): mounted filesystem 30aca047-fa3a-45ea-bacc-cb69aa065bd0 r/w with ordered data mode. Quota mode: none.
+[Mon Nov 20 13:57:38 2023] kworker/dying (55) used greatest stack depth: 12160 bytes left
+[Mon Nov 20 14:25:43 2023] main: loading out-of-tree module taints kernel.
+[Mon Nov 20 14:25:43 2023] Module loaded
+[Mon Nov 20 14:25:50 2023] Read function called
+[Mon Nov 20 14:25:50 2023] Read function called
+[Mon Nov 20 14:25:50 2023] Write function called
+[Mon Nov 20 14:25:50 2023] Write function called
