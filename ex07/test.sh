@@ -1,12 +1,12 @@
 #!/bin/bash
 
 
-# ###test for debug fs
-# ls /sys/kernel/debug/
-# ### in case of fail 
-# mount -t debugfs none /sys/kernel/debug/
-# ###check if enabled in kernel
-# cat /boot/config-6.4.12 | grep CONFIG_DEBUG_FS
+# ### test for debug fs
+ls /sys/kernel/debug/
+### in case of fail 
+mount -t debugfs none /sys/kernel/debug/
+###check if enabled in kernel
+cat /boot/config-6.4.12 | grep CONFIG_DEBUG_FS
 
 ### test file creation and permissions
 echo
