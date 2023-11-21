@@ -13,21 +13,21 @@
  *
  * Returns: The result of the workload simulation.
  */
-int do_work(int *my_int, int retval) {
-        int x;
-        int y = *my_int;
-        int z;
+int do_work(int *my_int, int retval)
+{
+	int x;
+	int y = *my_int;
+	int z;
 
-        for (x = 0; x < y; ++x) {
-                udelay(10);
-        }
+	for (x = 0; x < y; ++x)
+		udelay(10);
 
-        if (y < 10)
-                /* That was a long sleep, tell userspace about it */
-                pr_info("We slept a long time!");
+	if (y < 10)
+		/* That was a long sleep, tell userspace about it */
+		pr_info("We slept a long time!");
 
-        z = x * y;
-        return z;
+	z = x * y;
+	return z;
 }
 
 /**
@@ -37,10 +37,12 @@ int do_work(int *my_int, int retval) {
  *
  * Returns: The result of the workload simulation.
  */
-int my_init(void) {
-        int x = 10;
-        x = do_work(&x, x);
-        return x;
+int my_init(void)
+{
+	int x = 10;
+
+	x = do_work(&x, x);
+	return x;
 }
 
 /**
@@ -48,7 +50,8 @@ int my_init(void) {
  *
  * This function is called when the module is unloaded. It does nothing in this example.
  */
-void my_exit(void) {
+void my_exit(void)
+{
 }
 
 module_init(my_init);
