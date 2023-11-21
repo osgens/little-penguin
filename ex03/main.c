@@ -61,4 +61,3 @@ MODULE_LICENSE("GPL");
 MODULE_AUTHOR("ogenser");
 MODULE_DESCRIPTION("A simple kernel module to simulate a workload");
 MODULE_VERSION("0.1");
-
