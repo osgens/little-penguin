@@ -1,0 +1,1 @@
+ACTION=="add", SUBSYSTEM=="input", ATTRS{bInterfaceClass}=="03", RUN+="/bin/bash /sources/little-penguin/ex04/load.sh"
