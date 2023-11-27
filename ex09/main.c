@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-2.0
 #include <linux/init.h>
 #include <linux/module.h>
 #include <linux/kernel.h>
@@ -35,7 +36,8 @@ static int mymounts_show(struct seq_file *m, void *v)
 			//curdentry->d_parent->d_name.name, dentry_path_raw(curdentry->d_parent,
 			//buf, 1024));
 			seq_printf(m, " %s      %s\n", curdentry->d_name.name,
-			dentry_path_raw(curdentry, buf, 1024));
+				   dentry_path_raw
+				   (curdentry, buf, 1024));
 		}
 		rcu_read_unlock();
 	}
